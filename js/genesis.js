@@ -1,4 +1,36 @@
 
+//Horizontal Fußweg
+$('scene').append('<Transform id="f1" translation="0 1.45 .05" scale="3 0.1 1"  />');
+$('#f1').append('<Inline url="x3d/fussweg.x3d" />');
+$('scene').append('<Transform id="f2" translation="0 -1.45 .05" scale="3 0.1 1"  />');
+$('#f2').append('<Inline url="x3d/fussweg.x3d" />');
+$('scene').append('<Transform id="f3" translation="0 2.55 .05" scale="3 0.1 1"  />');
+$('#f3').append('<Inline url="x3d/fussweg.x3d" />');
+$('scene').append('<Transform id="f4" translation="0 -2.55 .05" scale="3 0.1 1"  />');
+$('#f4').append('<Inline url="x3d/fussweg.x3d" />');
+
+//Vertical Fußweg
+$('scene').append('<Transform id="vf1" translation="1.45 0 .05" scale="3 0.1 1" rotation="0 0 1 1.5708" />');
+$('#vf1').append('<Inline url="x3d/fussweg.x3d" />');
+$('scene').append('<Transform id="vf2" translation="-1.45 0 .05" scale="3 0.1 1" rotation="0 0 1 1.5708" />');
+$('#vf2').append('<Inline url="x3d/fussweg.x3d" />');
+$('scene').append('<Transform id="vf3" translation="2.55 0 .05" scale="3 0.1 1" rotation="0 0 1 1.5708" />');
+$('#vf3').append('<Inline url="x3d/fussweg.x3d" />');
+$('scene').append('<Transform id="vf4" translation="-2.55 0 .05" scale="3 0.1 1" rotation="0 0 1 1.5708" />');
+$('#vf4').append('<Inline url="x3d/fussweg.x3d" />');
+
+//Grass vertical
+$('scene').append('<Transform id="vg1" translation="3 0 0" scale="1 3 1" />');
+$('#vg1').append('<Inline url="x3d/grass.x3d" />');
+$('scene').append('<Transform id="vg2" translation="-3 0 0" scale="1 3 1" />');
+$('#vg2').append('<Inline url="x3d/grass.x3d" />');
+
+//Grass horizonal
+$('scene').append('<Transform id="hg1" translation="0 3 0" scale="3 1 1" />');
+$('#hg1').append('<Inline url="x3d/grass.x3d" />');
+$('scene').append('<Transform id="hg2" translation="0 -3 0" scale="3 1 1" />');
+$('#hg2').append('<Inline url="x3d/grass.x3d" />');
+
 //Vertical streets
 $('scene').append('<Transform id="vs1" translation="-2 3 0" rotation="0 0 1 1.5708" />');
 $('#vs1').append('<Inline url="x3d/street.x3d" />');
@@ -52,3 +84,17 @@ $('scene').append('<Transform id="cross3" translation="-2 -2 0" />');
 $('#cross3').append('<Inline url="x3d/crossroad.x3d" />');
 $('scene').append('<Transform id="cross4" translation="2 -2 0" />');
 $('#cross4').append('<Inline url="x3d/crossroad.x3d" />');
+
+
+//house
+$('scene').append('<Transform id="wh1" scale="1 1 1" translation="0 -.9 1" />');
+$('#wh1').append('<Inline url="x3d/whouse.x3d" />');
+
+$('scene').append('<Transform id="bh1" scale="1 1 1" translation="-1 -.9 1" />');
+$('#bh1').append('<Inline url="x3d/bh.x3d" />');
+
+$('scene').append('<Transform id="bh2" scale="1 1 1" translation="1 .9 1" />');
+$('#bh2').append('<Inline url="x3d/bh2.x3d" />');
+//Office
+$('scene').append('<Transform id="o1" scale="1 1 2" translation="1 -.9 1" />');
+$('#o1').append('<Inline url="x3d/office.x3d" />');
