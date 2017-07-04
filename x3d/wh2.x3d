@@ -10,7 +10,7 @@
 	          <TextureCoordinate DEF='DefaultTextureCoordinate' point='0 0 1 0 1 1 0 1'/>
 	        </IndexedFaceSet>
 	        <Appearance>
-	          <ImageTexture url='../img/bhside.jpg' />
+	          <ImageTexture url='../img/hwhiteside.jpg' />
 	          <TextureTransform DEF='RotateRight' rotation='-1.57'/>
 	        </Appearance>
 	      </Shape>
@@ -21,7 +21,7 @@
 	          <TextureCoordinate USE='DefaultTextureCoordinate'/>
 	        </IndexedFaceSet>
 	        <Appearance>
-	          <ImageTexture url="../img/bhside.jpg" />
+	          <ImageTexture url="../img/hwhiteside.jpg" />
 	          <TextureTransform USE='RotateRight'/>
 	        </Appearance>
 	      </Shape>
@@ -32,7 +32,7 @@
 	          <TextureCoordinate USE='DefaultTextureCoordinate'/>
 	        </IndexedFaceSet>
 	        <Appearance>
-	          <ImageTexture url="../img/bhside.jpg"/>
+	          <ImageTexture url="../img/hwhiteside.jpg"/>
 	          <TextureTransform USE='RotateRight'/>
 	        </Appearance>
 	      </Shape>
@@ -43,7 +43,7 @@
 	          <TextureCoordinate USE='DefaultTextureCoordinate'/>
 	        </IndexedFaceSet>
 	        <Appearance>
-	          <ImageTexture url="../img/bhside.jpg" />
+	          <ImageTexture url="../img/hwhiteside.jpg" />
 	          <TextureTransform DEF='Rotate180' rotation='3.14159'/>
 	        </Appearance>
 	      </Shape>
@@ -54,7 +54,7 @@
 	          <TextureCoordinate USE='DefaultTextureCoordinate'/>
 	        </IndexedFaceSet>
 	        <Appearance>
-	          <ImageTexture url="../img/bhside.jpg" />
+	          <ImageTexture url="../img/hwhiteside.jpg" />
 	          <TextureTransform DEF='RotateLeft' rotation='1.57'/>
 	        </Appearance>
 	      </Shape>
@@ -65,7 +65,7 @@
 	          <TextureCoordinate USE='DefaultTextureCoordinate'/>
 	        </IndexedFaceSet>
 	        <Appearance>
-	          <ImageTexture url="../img/bh.jpg"/>
+	          <ImageTexture url="../img/wh2.jpg"/>
 	          <TextureTransform USE='Rotate180'/>
 	        </Appearance>
 	      </Shape>

@@ -1,4 +1,5 @@
 
+$('scene').append('<Background skyColor="0.05 0.05 0.1"/>');
 //Horizontal Fußweg
 $('scene').append('<Transform id="f1" translation="0 1.45 .05" scale="3 0.1 1"  />');
 $('#f1').append('<Inline url="x3d/fussweg.x3d" />');
@@ -87,14 +88,22 @@ $('#cross4').append('<Inline url="x3d/crossroad.x3d" />');
 
 
 //house
-$('scene').append('<Transform id="wh1" scale="1 1 1" translation="0 -.9 1" />');
+$('scene').append('<Transform id="wh1" scale=".8 .4 .5" translation="-0.5 -.9 1" />');
 $('#wh1').append('<Inline url="x3d/whouse.x3d" />');
 
-$('scene').append('<Transform id="bh1" scale="1 1 1" translation="-1 -.9 1" />');
+$('scene').append('<Transform id="bh1" scale=".3 .3 .3" translation="1 1 1" rotation="0 0 1 1.5708" />');
 $('#bh1').append('<Inline url="x3d/bh.x3d" />');
 
-$('scene').append('<Transform id="bh2" scale="1 1 1" translation="1 .9 1" />');
+$('scene').append('<Transform id="bh2" scale=".6 .4 .4" translation="-1 .9 1" rotation="0 0 1 4.7124"/>');
 $('#bh2').append('<Inline url="x3d/bh2.x3d" />');
+
+$('scene').append('<Transform id="wh2" scale=".6 .4 .4" translation="0 .9 1" rotation="0 0 1 3.1416"/>');
+$('#wh2').append('<Inline url="x3d/wh2.x3d" />');
 //Office
-$('scene').append('<Transform id="o1" scale="1 1 2" translation="1 -.9 1" />');
+$('scene').append('<Transform id="o1" scale="1 .8 2" translation=".9 -.9 1.5" />');
 $('#o1').append('<Inline url="x3d/office.x3d" />');
+
+//Floor
+
+$('scene').append('<Transform id="fl" scale="3 3 1" translation="0 0 0" />');
+$('#fl').append('<Inline url="x3d/floor.x3d" />');
