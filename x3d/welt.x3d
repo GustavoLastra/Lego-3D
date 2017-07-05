@@ -6,7 +6,7 @@
 		<meta name="generator" content="Blender 2.70 (sub 0)" />
 	</head>
 	<Scene>
-    <Background skyColor="0.05 0.05 0.1"/>
+    <!-- <Background skyColor="0.05 0.05 0.1"/>-->
     <!-- Fußweg -->
       <Transform id="f1" translation="0 1.45 .05" scale="3 0.1 1"  >
       <Inline url="fussweg.x3d" />
@@ -136,15 +136,15 @@
       <Inline url="whouse.x3d" />
       </Transform>
 
-      <Transform id="bh1" scale=".3 .3 .3" translation="1 1 1" rotation="0 0 1 1.5708" >
+      <Transform id="bh1" scale=".3 .3 .3" translation="1.1 .8 .8" rotation="0 0 1 1.5708" >
       <Inline url="bh.x3d" />
       </Transform>
 
-      <Transform id="bh2" scale=".6 .4 .4" translation="-1 .9 1" rotation="0 0 1 4.7124">
+      <Transform id="bh2" scale=".6 .4 .4" translation="-1 .5 .9" rotation="0 0 1 4.7124">
       <Inline url="bh2.x3d" />
       </Transform>
 
-      <Transform id="wh2" scale=".6 .4 .4" translation="0 .9 1" rotation="0 0 1 3.1416">
+      <Transform id="wh2" scale=".6 .4 .4" translation="0.1 .9 .9" rotation="0 0 1 3.1416">
       <Inline url="wh2.x3d" />
       </Transform>
     <!--Office -->
@@ -156,6 +156,18 @@
       <Transform id="fl" scale="3 3 1" translation="0 0 0" >
       <Inline url="floor.x3d" />
       </Transform>
+    <!-- car-->
+      <Transform id="car" DEF ="car" scale=".15 .15 .15" onclick="siren()" translation="2 2 .65" rotation="1 0 0 1.5708">
+      <Inline id="carUrl" url="police.x3d" />
+      <!-- <AudioClip url='../mp3/siren.mp3' loop='false' enabled='true' />-->
+      </Transform>
+
+
+
+
+
+
+
 
     </Scene>
 </X3D>
