@@ -156,13 +156,16 @@
       <Transform id="fl" scale="3 3 1" translation="0 0 0" >
       <Inline url="floor.x3d" />
       </Transform>
-    <!-- car-->
-      <Transform id="car" DEF ="car" scale=".15 .15 .15" onclick="siren()" translation="2 2 .65" rotation="1 0 0 1.5708">
-      <Inline id="carUrl" url="police.x3d" />
-      <!-- <AudioClip url='../mp3/siren.mp3' loop='false' enabled='true' />-->
-      </Transform>
 
+			<!-- car rotation="1 0 0 1.5708-->
 
+			<Transform rotation='0 1 0 0'>
+			  <Transform rotation='0 0 1 0'>
+			    <Transform id="car" DEF ="car" scale=".15 .15 .15" onclick="siren()" translation="2 2 .65" >
+			       <Inline url="police.x3d" />
+			    </Transform>
+			  </Transform>
+			</Transform>
 
 
 
