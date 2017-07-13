@@ -161,7 +161,7 @@
 
 			<Transform rotation='0 1 0 0'>
 			  <Transform rotation='0 0 1 0'>
-			    <Transform id="car" DEF ="car" scale=".15 .15 .15" onclick="siren()" translation="2 2 .65" >
+			    <Transform id="car" DEF ="car" scale=".15 .15 .15" onclick="alarm()" translation="2 2 .65" >
 			       <Inline url="police.x3d" />
 			    </Transform>
 			  </Transform>
