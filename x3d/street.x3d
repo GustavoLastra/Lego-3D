@@ -5,7 +5,9 @@
 		<meta name="filename" content="Deer.x3d" />
 		<meta name="generator" content="Blender 2.70 (sub 0)" />
 	</head>
+
 	<Scene>
+	<!--
   <Transform  translation='0 0 0' >
     <Shape DEF='street'>
       <Appearance>
@@ -14,6 +16,81 @@
       </Appearance>
       <Box size='1 1 1' ></Box>
     </Shape>
-  </Transform>
+  </Transform> -->
+
+	<Group>
+		<Shape DEF='Right'>
+			<IndexedFaceSet coordIndex='0 1 2 3' texCoordIndex='0 1 2 3'>
+				<Coordinate DEF='Points' point='1 1 1 1 -1 1 1 -1 -1 1 1 -1 -1 1 1 -1 -1 1 -1 -1 -1 -1 1 -1'/>
+				<TextureCoordinate DEF='DefaultTextureCoordinate' point='0 0 1 0 1 1 0 1'/>
+			</IndexedFaceSet>
+			<Appearance>
+				<ImageTexture url='../img/grass.jpg' />
+				<TextureTransform DEF='RotateRight' rotation='-1.57'/>
+			</Appearance>
+		</Shape>
+
+		<Shape DEF='Left'>
+			<IndexedFaceSet coordIndex='7 6 5 4' texCoordIndex='0 1 2 3'>
+				<Coordinate USE='Points'/>
+				<TextureCoordinate USE='DefaultTextureCoordinate'/>
+			</IndexedFaceSet>
+			<Appearance>
+				<ImageTexture url="../img/grass.jpg" />
+				<TextureTransform USE='RotateRight'/>
+			</Appearance>
+		</Shape>
+
+		<Shape DEF='Bottom'>
+			<IndexedFaceSet coordIndex='3 2 6 7' texCoordIndex='0 1 2 3'>
+				<Coordinate USE='Points'/>
+				<TextureCoordinate USE='DefaultTextureCoordinate'/>
+			</IndexedFaceSet>
+			<Appearance>
+				<ImageTexture url="../img/street.png"/>
+				<TextureTransform USE='RotateRight'/>
+			</Appearance>
+		</Shape>
+
+		<Shape DEF='Top'>
+			<IndexedFaceSet coordIndex='0 4 5 1' texCoordIndex='0 1 2 3'>
+				<Coordinate USE='Points'/>
+				<TextureCoordinate USE='DefaultTextureCoordinate'/>
+			</IndexedFaceSet>
+			<Appearance>
+				<ImageTexture url="../img/street.png" />
+				<TextureTransform DEF='Rotate180' rotation='3.14159'/>
+			</Appearance>
+		</Shape>
+
+		<Shape DEF='Back'>
+			<IndexedFaceSet coordIndex='0 3 7 4' texCoordIndex='0 1 2 3'>
+				<Coordinate USE='Points'/>
+				<TextureCoordinate USE='DefaultTextureCoordinate'/>
+			</IndexedFaceSet>
+			<Appearance>
+				<ImageTexture url="../img/grass.jpg" />
+				<TextureTransform DEF='RotateLeft' rotation='1.57'/>
+			</Appearance>
+		</Shape>
+
+		<Shape DEF='Front'>
+			<IndexedFaceSet coordIndex='1 5 6 2' texCoordIndex='0 1 2 3'>
+				<Coordinate USE='Points'/>
+				<TextureCoordinate USE='DefaultTextureCoordinate'/>
+			</IndexedFaceSet>
+			<Appearance>
+				<ImageTexture url="../img/grass.jpg"/>
+				<TextureTransform USE='Rotate180'/>
+			</Appearance>
+		</Shape>
+	</Group>
+
+
+
+
+
+
+
 	</Scene>
 </X3D>

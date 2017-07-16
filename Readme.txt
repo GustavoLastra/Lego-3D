@@ -10,3 +10,6 @@ wh2 : http://www.10ravens.com/textures/texture-buildings-00098-01-10025.html
 readme : http://agf81.deviantart.com/gallery/31629310/Floor-Textures
 
 police https://www.blendswap.com/blends/view/71913
+
+baum https://www.google.de/search?q=baum+texture&client=firefox-b-ab&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwj15an1_4XVAhWCbxQKHa0lBIEQsAQIMQ&biw=617&bih=327#imgrc=pTiYpmZZdHUusM:
+Ivy und Bush: www.texture.com
